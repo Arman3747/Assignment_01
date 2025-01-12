@@ -5,10 +5,10 @@
     font-style: normal;
   }
 
-
 *{
     max-width: 1600px;
 }
+
 .primary_bg{
     background-color: #F1F1F3;
 }
@@ -16,9 +16,11 @@
 .button_blue{
     background-color: #5490F5;
 }
+
 .button_green{
     background-color: #09A15C;
 }
+
 .button_orange{
     background-color: #FFC239;
 }
@@ -48,8 +50,15 @@
     border:1px solid #006A50;
     font-family: "Fira Sans", serif;
 
-
+    cursor: pointer;
 }
+
+.top_bar_button:hover{
+
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+
 
 /* banner style */
 .banner{
@@ -67,7 +76,6 @@
 .banner_items{
     max-width: 622px;
 }
-
 
 .banner_items_h3{
     font-size: 24px;
@@ -93,7 +101,11 @@
     font-family: "Fira Sans", serif;
 }
 
+.banner_items_button:hover{
 
+    color: #006A50;
+    background-color: #FFFFFF;
+}
 
 /* The Vision of Future */
 .the_vision_of_future{
@@ -322,6 +334,17 @@
     border: none;
     /* border: 1px solid #0E0E0E; */
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* .light_green{
+    background-color: #C6E4D6;"
+
+} */
+
+.take_div>button:hover{
+
+    background-color: #006A50;
+    color: #FFFFFF;
 }
 
 .donate_today>input{
