@@ -180,7 +180,7 @@
     color: #0E0E0E;
     opacity: 80%;
 
-
+    /* text-align: justify; */
 }
 
 .yunus_quote h3{
@@ -193,7 +193,6 @@
     margin-bottom: 8px;
 }
 
-
 .yunus_quote h6{
     font-size: 16px;
     font-weight: 400;
@@ -201,6 +200,15 @@
     color: #0E0E0E;
     opacity: 60%;
     margin: 0px;
+}
+
+/* Recent news */
+
+.recent_news{
+    margin-top: 100px;
+
+    margin-left: 160px;
+    margin-right: 160px;
 
     
 }
