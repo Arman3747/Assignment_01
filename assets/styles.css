@@ -273,7 +273,90 @@
     font-family: "Fira Sans", serif;
 }
 
+/* donate today */
 
+.donate_today{
+
+    margin-left: 160px;
+    margin-right: 160px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.donate_today>h1{
+    font-size: 40px;
+    font-size: 700;
+
+    color: #0E0E0E;
+    margin: 0px 0px;
+}
+.donate_today>p{
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.take_div>button{
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    min-width: 240px;
+
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #0E0E0E;
+    opacity: 80%;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-right: 24px;
+    border: none;
+    /* border: 1px solid #0E0E0E; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.donate_today>input{
+    width: 90%;
+    padding: 20px 40px;
+    max-width: 950px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-bottom: 32px;
+}
+
+
+.donate_today>input::placeholder{
+    font-size: 20px;
+
+    color: #0E0E0E;
+    opacity: 30%;
+
+    text-align: center;
+}
+
+.donate_today>button{
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    width: 151px;
+    border-radius: 8px;
+    border: none;
+
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    margin-bottom: 80px;
+}
 
 
 
