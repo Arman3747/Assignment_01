@@ -3,7 +3,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 *{
     max-width: 1600px;
@@ -59,7 +59,6 @@
     color: #FFFFFF;
 }
 
-
 /* banner style */
 .banner{
     margin-left: 160px;
@@ -90,6 +89,7 @@
     color: #0E0E0E;
 
 }
+
 .banner_items_button{
     background-color: #006A50;
     color: #FFFFFF;
@@ -149,8 +149,8 @@
     font-weight: 700;
     color: #0E0E0E;
     opacity: 80%;
-
 }
+
 .future_card p{
     margin-bottom: 24px;
     font-size: 16px;
@@ -176,7 +176,6 @@
 }
 
 /* yunus_quote */
-
 .yunus_quote{
     background-image: url("images/quote-bg.png");
     background-repeat: no-repeat;
@@ -197,12 +196,12 @@
     color: #0E0E0E;
     opacity: 80%;
 
+    /* In the templete it is not justified.  */
     /* text-align: justify; */
 }
 
 .yunus_quote h3{
     margin-top: 12px;
-
     font-size: 20px;
     font-weight: 600px;
     color: #0E0E0E;
@@ -213,17 +212,14 @@
 .yunus_quote h6{
     font-size: 16px;
     font-weight: 400;
-
     color: #0E0E0E;
     opacity: 60%;
     margin: 0px;
 }
 
 /* Recent news */
-
 .recent_news{
     margin-top: 100px;
-
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -237,7 +233,6 @@
 .recent_news>p{
     color: #0E0E0E;
     opacity: 70%;
-
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -247,11 +242,9 @@
     background-color: #FFFFFF;
     border-radius: 24px;
     padding: 48px;
-
     display: flex;
     justify-content: start;
     gap: 32px;
-
     margin-bottom: 24px;
 }
 
@@ -264,7 +257,6 @@
 .news_div_content>h1{
     font-size: 32px;
     font-weight: 700;
-
     color: #0E0E0E;
     opacity: 80%;
 }
@@ -284,7 +276,6 @@
     padding: 13px 26px;
     border-radius: 8px;
     border: none;
-
     font-family: "Fira Sans", serif;
 }
 
@@ -295,12 +286,10 @@
 }
 
 /* donate today */
-
 .donate_today{
 
     margin-left: 160px;
     margin-right: 160px;
-
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -310,14 +299,12 @@
 .donate_today>h1{
     font-size: 40px;
     font-size: 700;
-
     color: #0E0E0E;
     margin: 0px 0px;
 }
 .donate_today>p{
     font-size: 16px;
     font-weight: 400;
-
     color: #0E0E0E;
     opacity: 70%;
     margin-top: 24px;
@@ -328,12 +315,9 @@
 
     margin-top: 32px;
     margin-bottom: 32px;
-
     min-width: 240px;
-
     font-size: 40px;
     font-weight: 700;
-
     color: #0E0E0E;
     opacity: 80%;
     padding: 40px;
@@ -344,11 +328,6 @@
     /* border: 1px solid #0E0E0E; */
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
 }
-
-/* .light_green{
-    background-color: #C6E4D6;"
-
-} */
 
 .take_div>button:hover{
 
@@ -365,13 +344,10 @@
     margin-bottom: 32px;
 }
 
-
 .donate_today>input::placeholder{
     font-size: 20px;
-
     color: #0E0E0E;
     opacity: 30%;
-
     text-align: center;
 }
 
@@ -382,11 +358,9 @@
     width: 151px;
     border-radius: 8px;
     border: none;
-
     font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
-
     margin-bottom: 80px;
 }
 
@@ -397,36 +371,26 @@
 }
 
 /* subscribe_newsletter */
-
 .subscribe_newsletter{
 
     margin-left: 160px;
     margin-right: 160px;
-
     padding: 80px 100px;
     border-radius: 24px;
-
     background-color: #C6E4D6;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-
-
     margin-bottom: 80px;
 }
 
 .subscribe_newsletter>h1{
     font-size: 40px;
     font-weight: 700;
-
     columns: #0E0E0E;
-
-
 }
 
 .subscribe_newsletter>p{
-
     font-size: 16px;
     font-weight: 400;
     columns: #0E0E0E;
@@ -436,25 +400,19 @@
 }
 
 .subscribe_newsletter>form{
-
     margin-top: 24px;
     margin-bottom: 24px;
-
 }
 
 .subscribe_newsletter form input[type="email"]{
     background-color: #FFFFFF;
-
     min-width: 500px;
     border: none;
-
     padding: 18px 40px;
     font-family: "Fira Sans", serif;
-
     font-size: 16px;
     color: rgba(14, 14, 14,0.3);
     /* opacity: 30%; */
-
     border-top-left-radius: 8px 8px; 
     border-bottom-left-radius: 8px 8px;
 }
@@ -463,20 +421,15 @@
 
     min-width: 150px;
     border:none;
-
     padding: 17px 34px;
     font-family: "Fira Sans", serif;
-
     font-size: 18px;
     font-weight: 600;
     background-color: #006A50;
     color: #FFFFFF;
-
     border-top-right-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;
 }
-
-
 
 .subscribe_newsletter form input[type="submit"]:hover{
 
