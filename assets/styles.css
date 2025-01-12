@@ -150,7 +150,6 @@
     color: #0E0E0E;
     opacity: 80%;
 
-
 }
 .future_card p{
     margin-bottom: 24px;
@@ -168,6 +167,12 @@
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+}
+
+.future_card button:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+
 }
 
 /* yunus_quote */
@@ -221,8 +226,6 @@
 
     margin-left: 160px;
     margin-right: 160px;
-
-
 }
 
 .recent_news>h1{
@@ -283,6 +286,12 @@
     border: none;
 
     font-family: "Fira Sans", serif;
+}
+
+.news_div_content button:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
 }
 
 /* donate today */
@@ -381,6 +390,12 @@
     margin-bottom: 80px;
 }
 
+.donate_today>button:hover{
+
+    color: #006A50;
+    background-color: #FFFFFF;
+}
+
 /* subscribe_newsletter */
 
 .subscribe_newsletter{
@@ -442,10 +457,6 @@
 
     border-top-left-radius: 8px 8px; 
     border-bottom-left-radius: 8px 8px;
-
-
-
-
 }
 
 .subscribe_newsletter form input[type="submit"]{
@@ -463,6 +474,12 @@
 
     border-top-right-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;
+}
 
 
+
+.subscribe_newsletter form input[type="submit"]:hover{
+
+    color: #006A50;
+    background-color: black;
 }
