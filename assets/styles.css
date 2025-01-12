@@ -13,8 +13,14 @@
     background-color: #F1F1F3;
 }
 
-.light_green_l3{
-
+.button_blue{
+    background-color: #5490F5;
+}
+.button_green{
+    background-color: #09A15C;
+}
+.button_orange{
+    background-color: #FFC239;
 }
 
 .color_green_l3{
@@ -89,17 +95,76 @@
 
 
 
-
 /* The Vision of Future */
 .the_vision_of_future{
+    margin-top: 80px;
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom: 32px;
+}
+.the_vision_of_future_h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
 }
 
+.the_vision_of_future_p{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.future_card{
+    width: 410px;
+    padding: 32px;
+    border-radius: 16px;
+    /* background-color: #5490F5;
+    opacity: 20%; */
+    /* background-color: #d5e1f5;   */
+}
+
+.future_card h3{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
 
 
+}
+.future_card p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.future_card button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* yunus_quote */
+
+.yunus_quote{
+    margin-left: 160px;
+    margin-right: 160px;
 
 
+}
 
 
 
